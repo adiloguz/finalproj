@@ -1,0 +1,7 @@
+{
+  "name": "MarketTakip Pro",
+  "description": "Süpermarketler için gelişmiş son kullanma tarihi takip uygulaması. Barkod okuma, stok yönetimi ve bildirim sistemi içerir.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

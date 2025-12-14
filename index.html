@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketTakip Pro - SKT Takip Sistemi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#eff6ff',
+                100: '#dbeafe',
+                500: '#3b82f6',
+                600: '#2563eb',
+                700: '#1d4ed8',
+                900: '#1e3a8a',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', sans-serif; }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar { width: 8px; height: 8px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+      .dark ::-webkit-scrollbar-thumb { background: #475569; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+    "lucide-react": "https://esm.sh/lucide-react@0.441.0?external=react",
+    "recharts": "https://esm.sh/recharts@2.12.7?external=react,react-dom",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.26.2?external=react,react-dom",
+    "react-zxing": "https://esm.sh/react-zxing@2.0.2?external=react,react-dom"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200">
+    <div id="root"></div>
+  </body>
+</html>
